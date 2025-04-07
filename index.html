@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/Logo.png">
+    <title>Gucor - Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Styling CSS -->
+
+    <!-- Theme 1 -->
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css">
+
+    <!-- Theme 2 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-two.css"> -->
+
+    <!-- Theme 3 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-three.css"> -->
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="./index.html"><span class="logo">WEB-DEVELOPER</span></a>
+        </div>
+        <div class="toggle">
+            <button data-theme="./assets/css/style.css" class="footer__theme1 active-theme">Dark Mode </button>
+            <button data-theme="./assets/css/style-two.css" class="footer__theme2">Light Mode </button>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div>
+                <div>
+                    <h4 title="Hello, How are you?">Hi, There!</h4>
+                    <h2 class="hero-section__title">I'm <span>Lovely</span></h2>
+                    <p class="hero-section__desc">I'm a student web developer specializing in frontend 
+                        technologies like HTML, CSS, and JavaScript. I craft interactive and visually 
+                        appealing web experiences, seamlessly blending design aesthetics with functionality.
+                    </p>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" title="Got a cool project? Let’s work together!">Hire
+                        me</button>
+                    <button class="btn btn-dark-outlined">
+                        <a href="." download>Download Portfolio </a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <img src="assets/img/Hero.png" alt="Gucor-portfolio" width="450">
+                <ul class="social-icons">
+                    <!-- Social Icons -->
+                    <li>
+                        <a href="" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About Section  -->
+        <section class="about-section" id="about">
+
+            <div class="about-img">
+                <img src="assets/img/About.png" alt="Sudharsan-portfolio">
+            </div>
+
+            <div class="about-content">
+                <h4>About Me</h4>
+                <h2>I am UI Designer & <br> <span>Web Developer</span></h2>
+                <p>A Senior Computer Science student at the University of the Philippines Cebu. 
+                    My academic journey has immersed me in the world of web development, where 
+                    I’ve discovered a passion for building meaningful digital experiences. I’m 
+                    driven by a desire to leverage technology to solve real-world problems and 
+                    craft solutions that are both functional and beautifully designed. Some of
+                    my skills include:
+                </p>
+                <h3>
+                    Graphic Design
+                    <img src="assets/img/scale.png" width="500">
+                </h3>
+                <h3>
+                    Programming
+                    <img src="assets/img/scale2.png" width="500">
+                </h3>
+                <h3>
+                    UI/UX Development
+                    <img src="assets/img/scale3.png" width="500">
+                </h3>
+                <h3>
+                    Social Media Management
+                    <img src="assets/img/scale4.png" width="500">
+                </h3>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="projects-cards">
+                <div class="projects-card-box">
+                    <img src="assets/img/Gamedev.png" alt="Gucor-portfolio" width="340">
+                    <div class="projects-card-box__desc">
+                        <h4>Game Development </h4>
+                    </div>
+                </div>
+
+                <div class="projects-card-box">
+                    <img src="assets/img/UX.png" alt="Gucor-portfolio" width="340">
+                    <div class="projects-card-box__desc">
+                        <h4>Web Design</h4>
+                    </div>
+                </div>
+
+                <div class="projects-card-box">
+                    <img src="assets/img/Graphicdesign.png" alt="Gucor-portfolio" width="340">
+                    <div class="projects-card-box__desc">
+                        <h4>Graphic Design </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Contact <span>ME!</span></h2>
+            <form action="">
+                <div>
+                    <input type="text" name="name" placeholder="Full name" required>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Type Message" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary">SEND MESSAGE</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
